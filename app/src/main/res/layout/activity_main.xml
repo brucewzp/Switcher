@@ -11,6 +11,7 @@
     tools:context="com.brucewzp.widget.switcher.MainActivity">
 
     <com.brucewzp.widget.library.Switcher
+        android:id="@+id/switcher"
         android:layout_width="80dp"
         android:layout_height="40dp"
         android:layout_centerInParent="true"

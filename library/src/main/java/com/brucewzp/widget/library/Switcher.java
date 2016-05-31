@@ -28,6 +28,7 @@ public class Switcher extends CompoundButton {
     private RectF offset;
     private float w;
     private boolean mState = false;
+    private OnStateChangedListener mStateChangedListener;
 
     public Switcher(Context context) {
         super(context);
@@ -105,6 +106,11 @@ public class Switcher extends CompoundButton {
             @Override
             public void onAnimationEnd(Animator animation) {
                 Switcher.this.setEnabled(true);
+                if (mState) {
+                    mStateChangedListener.onStateTrue();
+                } else {
+                    mStateChangedListener.onStateFalse();
+                }
             }
 
             @Override
@@ -139,4 +145,16 @@ public class Switcher extends CompoundButton {
         super.onLayout(changed, left, top, right, bottom);
     }
 
+    public boolean getState() {
+        return mState;
+    }
+
+    public void setOnStateChangedListener(OnStateChangedListener onStateChangedListener){
+        mStateChangedListener = onStateChangedListener;
+    }
+
+    public interface OnStateChangedListener{
+        void onStateTrue();
+        void onStateFalse();
+    }
 }

@@ -15,7 +15,7 @@ Gradle
 ======
 ```
 dependencies {
-    compile 'com.brucewzp.widget.library:library:0.8.5'
+    compile 'com.brucewzp.widget.switcher:library:0.8.5'
 }
 ```
 
@@ -23,7 +23,7 @@ Maven
 =====
 ```
 <dependency>
-  <groupId>com.brucewzp.widget.library</groupId>
+  <groupId>com.brucewzp.widget.switcher</groupId>
   <artifactId>library</artifactId>
   <version>0.8.5</version>
   <type>pom</type>

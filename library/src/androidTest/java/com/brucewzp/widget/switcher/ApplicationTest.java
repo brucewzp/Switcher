@@ -1,4 +1,4 @@
-package com.brucewzp.widget;
+package com.brucewzp.widget.switcher;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

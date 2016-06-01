@@ -1,4 +1,4 @@
-package com.brucewzp.widget;
+package com.brucewzp.widget.switcher;
 
 import android.animation.Animator;
 import android.animation.ObjectAnimator;
@@ -14,7 +14,6 @@ import android.view.View;
 import android.view.animation.AccelerateDecelerateInterpolator;
 import android.widget.CompoundButton;
 
-import com.brucewzp.widget.library.R;
 
 /**
  * Created on:4/11/16

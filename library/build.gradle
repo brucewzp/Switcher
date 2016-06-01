@@ -2,13 +2,11 @@ apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
 apply plugin: 'com.jfrog.bintray'
 
-
 version = "0.8.5"
 
 def siteUrl = 'https://github.com/brucewzp/Switcher'
 def gitUrl = 'https://github.com/brucewzp/Switcher.git'
-group = "com.brucewzp.widget"
-
+group = "com.brucewzp.widget.switcher"
 
 android {
     compileSdkVersion 23

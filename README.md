@@ -5,7 +5,7 @@ Switcher
 A simple switch button for android.  
 * change background color in `bgColor` attribute.  
 * change slide block color in `floatColor` attribute.  
-* add `OnStateChangedListener` to Switcher 
+* add `OnStateChangedListener` to Switcher
 
 Preview
 =======
@@ -15,7 +15,7 @@ Gradle
 ======
 ```
 dependencies {
-    compile 'com.brucewzp.widget.library:library:0.8.4'
+    compile 'com.brucewzp.widget.library:library:0.8.5'
 }
 ```
 
@@ -25,7 +25,7 @@ Maven
 <dependency>
   <groupId>com.brucewzp.widget.library</groupId>
   <artifactId>library</artifactId>
-  <version>0.8.4</version>
+  <version>0.8.5</version>
   <type>pom</type>
 </dependency>
 ```

@@ -1,4 +1,4 @@
-package com.brucewzp.widget.library;
+package com.brucewzp.widget;
 
 import org.junit.Test;
 

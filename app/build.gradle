@@ -5,7 +5,7 @@ android {
     buildToolsVersion "23.0.3"
 
     defaultConfig {
-        applicationId "com.brucewzp.widget.switcher"
+        applicationId "com.brucewzp.widget"
         minSdkVersion 16
         targetSdkVersion 23
         versionCode 1

@@ -3,11 +3,11 @@ apply plugin: 'com.github.dcendents.android-maven'
 apply plugin: 'com.jfrog.bintray'
 
 
-version = "0.8.4"
+version = "0.8.5"
 
 def siteUrl = 'https://github.com/brucewzp/Switcher'
 def gitUrl = 'https://github.com/brucewzp/Switcher.git'
-group = "com.brucewzp.widget.library"
+group = "com.brucewzp.widget"
 
 
 android {
@@ -17,8 +17,8 @@ android {
     defaultConfig {
         minSdkVersion 16
         targetSdkVersion 23
-        versionCode 4
-        versionName "0.8.4"
+        versionCode 5
+        versionName "0.8.5"
     }
     buildTypes {
         release {

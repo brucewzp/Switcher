@@ -1,4 +1,4 @@
-package com.brucewzp.widget.library;
+package com.brucewzp.widget;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

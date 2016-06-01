@@ -3,8 +3,9 @@ Switcher
 [![brucewzp blog](https://img.shields.io/badge/switcher-brucewzp-ff69b4.svg?style=flat)](http://bruceboard.me)
 
 A simple switch button for android.  
-change background color in `bgColor` attribute.  
-change slide block color in `floatColor` attribute.  
+* change background color in `bgColor` attribute.  
+* change slide block color in `floatColor` attribute.  
+* add `OnStateChangedListener` to Switcher 
 
 Preview
 =======

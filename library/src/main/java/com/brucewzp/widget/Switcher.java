@@ -1,4 +1,4 @@
-package com.brucewzp.widget.library;
+package com.brucewzp.widget;
 
 import android.animation.Animator;
 import android.animation.ObjectAnimator;
@@ -13,6 +13,8 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.view.animation.AccelerateDecelerateInterpolator;
 import android.widget.CompoundButton;
+
+import com.brucewzp.widget.library.R;
 
 /**
  * Created on:4/11/16
@@ -106,6 +108,8 @@ public class Switcher extends CompoundButton {
             @Override
             public void onAnimationEnd(Animator animation) {
                 Switcher.this.setEnabled(true);
+                if (mStateChangedListener == null)
+                    return;
                 if (mState) {
                     mStateChangedListener.onStateTrue();
                 } else {

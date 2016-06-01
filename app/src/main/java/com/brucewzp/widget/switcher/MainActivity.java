@@ -4,7 +4,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 
-import com.brucewzp.widget.library.Switcher;
+import com.brucewzp.widget.Switcher;
 
 public class MainActivity extends AppCompatActivity {
     private Switcher switcher;
